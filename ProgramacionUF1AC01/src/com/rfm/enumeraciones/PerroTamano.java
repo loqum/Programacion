@@ -1,4 +1,4 @@
-package com.rfm.modelos;
+package com.rfm.enumeraciones;
 
 public enum PerroTamano {
 	

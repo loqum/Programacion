@@ -1,7 +1,7 @@
 package com.rfm.main;
 
+import com.rfm.enumeraciones.PerroTamano;
 import com.rfm.modelos.Perro;
-import com.rfm.modelos.PerroTamano;
 import com.rfm.modelos.Raza;
 
 public class Main {

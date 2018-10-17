@@ -1,5 +1,7 @@
 package com.rfm.modelos;
 
+import com.rfm.enumeraciones.PerroTamano;
+
 public class Raza extends Perro {
 
 	private String nombreRaza;
