@@ -6,6 +6,10 @@ public class Estudiante extends Persona {
 
   }
 
+  public Estudiante(Estudiante estudiante) {
+
+  }
+
   public Estudiante(String nombre, String direccion, String fechaAlta, int edad, String nif) {
     super(nombre, direccion);
     this.fechaAlta = fechaAlta;
@@ -45,6 +49,10 @@ public class Estudiante extends Persona {
     builder.append(edad);
     builder.append(", nif=");
     builder.append(nif);
+    builder.append(", getNombre()=");
+    builder.append(getNombre());
+    builder.append(", getDireccion()=");
+    builder.append(getDireccion());
     builder.append("]");
     return builder.toString();
   }

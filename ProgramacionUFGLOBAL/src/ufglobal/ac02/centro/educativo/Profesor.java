@@ -6,6 +6,12 @@ public final class Profesor extends Trabajador {
 
   }
 
+  public Profesor(Trabajador trabajador, String titulacion, String especialidad) {
+    super(trabajador);
+    this.titulacion = titulacion;
+    this.especialidad = especialidad;
+  }
+
   private String titulacion;
   private String especialidad;
 

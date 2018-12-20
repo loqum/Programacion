@@ -36,13 +36,22 @@ public class Trabajador extends Persona {
     this.direccionTrabajo = direccionTrabajo;
   }
 
+  public static void obtenerDirecciones(Trabajador trabajador) {
+    System.out.println("Dirección trabajo: ".concat(trabajador.getDireccionTrabajo()).concat("\n"));
+    System.out.println("Dirección vivienda: ".concat(trabajador.getDireccion()));
+  }
+
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
     builder.append("Trabajador [numSs=");
     builder.append(numSs);
-    builder.append(", direccion=");
+    builder.append(", direccionTrabajo=");
     builder.append(direccionTrabajo);
+    builder.append(", getNombre()=");
+    builder.append(getNombre());
+    builder.append(", getDireccion()=");
+    builder.append(getDireccion());
     builder.append("]");
     return builder.toString();
   }
