@@ -1,6 +1,9 @@
-package ufglobal.ac02.centro.educativo;
+package ufglobal.ac02.centro_educativo;
 
 public class Persona {
+
+  private String nombre;
+  private String direccion;
 
   public Persona() {
 
@@ -15,8 +18,13 @@ public class Persona {
     this.direccion = direccion;
   }
 
-  private String nombre;
-  private String direccion;
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+
+  public void setDireccion(String direccion) {
+    this.direccion = direccion;
+  }
 
   public String getNombre() {
     return nombre;

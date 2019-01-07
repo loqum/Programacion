@@ -1,6 +1,10 @@
-package ufglobal.ac02.centro.educativo;
+package ufglobal.ac02.centro_educativo;
 
 public class Estudiante extends Persona {
+
+  private String fechaAlta;
+  private int edad;
+  private String nif;
 
   public Estudiante() {
 
@@ -24,20 +28,28 @@ public class Estudiante extends Persona {
     this.nif = nif;
   }
 
-  private String fechaAlta;
-  private int edad;
-  private String nif;
-
   public String getFechaAlta() {
     return fechaAlta;
+  }
+
+  public void setFechaAlta(String fechaAlta) {
+    this.fechaAlta = fechaAlta;
   }
 
   public int getEdad() {
     return edad;
   }
 
+  public void setEdad(int edad) {
+    this.edad = edad;
+  }
+
   public String getNif() {
     return nif;
+  }
+
+  public void setNif(String nif) {
+    this.nif = nif;
   }
 
   @Override

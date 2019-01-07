@@ -1,4 +1,4 @@
-package ufglobal.ac02.centro.educativo;
+package ufglobal.ac02.centro_educativo;
 
 public final class Profesor extends Trabajador {
 
